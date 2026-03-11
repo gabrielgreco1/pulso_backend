@@ -6,8 +6,8 @@ WORKDIR /app
 # Copy package files
 COPY package*.json ./
 
-# Install dependencies
-RUN npm ci
+# Install dependencies (rebuild native modules for Linux)
+RUN npm ci --verbose && npm rebuild bcrypt
 
 # Copy source code
 COPY . .
