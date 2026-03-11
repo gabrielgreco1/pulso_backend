@@ -8,7 +8,14 @@ import { AppModule } from './app.module';
  * Configures CORS, validation, and starts the server
  */
 async function bootstrap() {
-  const logger = new Logger('Bootstrap'); // Recompile trigger
+  const logger = new Logger('Bootstrap');
+
+  // Log all environment variables immediately (debug)
+  console.log('[DEBUG] ===== ENVIRONMENT VARIABLES =====');
+  console.log('[DEBUG] Available env keys:', Object.keys(process.env).sort());
+  console.log('[DEBUG] MONGODB_URI:', process.env.MONGODB_URI ? 'SET' : 'NOT SET');
+  console.log('[DEBUG] NODE_ENV:', process.env.NODE_ENV);
+  console.log('[DEBUG] =====================================');
 
   const app = await NestFactory.create(AppModule, {
     bufferLogs: true,
