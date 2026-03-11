@@ -8,18 +8,35 @@ export class AiService {
   private readonly logger = new Logger(AiService.name);
   private openai: OpenAI;
   private model: string;
+  private initialized = false;
 
-  constructor(private configService: ConfigService) {
-    this.openai = new OpenAI({
-      apiKey: this.configService.get<string>('openai.apiKey'),
-    });
+  constructor(private configService: ConfigService) {}
+
+  private initializeOpenAI() {
+    if (this.initialized) return;
+    
+    const apiKey = this.configService.get<string>('openai.apiKey');
+    if (!apiKey) {
+      this.logger.warn('OPENAI_API_KEY not configured. AI features will be disabled.');
+      return;
+    }
+    
+    this.openai = new OpenAI({ apiKey });
     this.model = this.configService.get<string>('openai.model') || 'gpt-4o';
+    this.initialized = true;
   }
 
   /**
    * Analyze a single news article or social media post
    */
   async analyzeSingle(article: any, targetName: string): Promise<any> {
+    this.initializeOpenAI();
+    
+    if (!this.openai) {
+      this.logger.warn('OpenAI not configured. Skipping analysis.');
+      return null;
+    }
+
     this.logger.log(
       `Analyzing ${article.portal === 'instagram' ? 'social post' : 'article'}: ${article.title || 'no-title'}`,
     );
@@ -64,6 +81,13 @@ export class AiService {
    * Consolidate analyses into a report
    */
   async consolidate(analysisId: string, targetName: string, analyzedArticles: any[]): Promise<any> {
+    this.initializeOpenAI();
+    
+    if (!this.openai) {
+      this.logger.warn('OpenAI not configured. Skipping consolidation.');
+      return null;
+    }
+
     this.logger.log(`Consolidating report for analysis: ${analysisId}`);
 
     if (!analyzedArticles || analyzedArticles.length === 0) {
