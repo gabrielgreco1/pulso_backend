@@ -1,0 +1,1214 @@
+
+> pulso-backend@1.0.0 start:dev
+> nest start --watch
+
+
+ Info  Webpack is building your sources...
+
+webpack 5.89.0 compiled [1m[32msuccessfully[39m[22m in 1391 ms
+(node:66943) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:67004) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:67004) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPlansModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mScraping API URL: http://localhost:8000[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAiModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScrapingModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mNewsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPaymentsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAnalysisModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/api/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/me, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/refresh-token, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAnalysisController {/api/analysis}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id/download, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id/start, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id/report, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id/articles, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mNewsController {/api/news}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/news/analysis/:analysisId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mScrapingController {/api/scraping}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/scraping/trigger, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/scraping/status/:jobId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/scraping/health, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPaymentsController {/api/payments}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/payments/checkout, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/payments/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPlansController {/api/plans}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plans, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plans/:name, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +0ms[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[Bootstrap] [39m[32m🚀 Application running in development mode on port 3001[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[Bootstrap] [39m[32m📡 API available at: http://localhost:3001/api[39m
+[32m[Nest] 67004  - [39m02/23/2026, 1:13:54 PM [32m    LOG[39m [38;5;3m[Bootstrap] [39m[32m🔐 CORS enabled for: http://localhost:3000[39m
+
+ Info  Webpack is building your sources...
+
+webpack 5.89.0 compiled [1m[32msuccessfully[39m[22m in 1264 ms
+(node:67301) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPlansModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mScraping API URL: http://localhost:8000[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAiModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScrapingModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mNewsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPaymentsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAnalysisModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/api/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/me, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/refresh-token, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAnalysisController {/api/analysis}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id/download, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id/start, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id/report, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id/articles, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mNewsController {/api/news}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/news/analysis/:analysisId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mScrapingController {/api/scraping}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/scraping/trigger, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/scraping/status/:jobId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/scraping/health, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPaymentsController {/api/payments}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/payments/checkout, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/payments/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPlansController {/api/plans}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plans, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plans/:name, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +0ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[Bootstrap] [39m[32m🚀 Application running in development mode on port 3001[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[Bootstrap] [39m[32m📡 API available at: http://localhost:3001/api[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:14:46 PM [32m    LOG[39m [38;5;3m[Bootstrap] [39m[32m🔐 CORS enabled for: http://localhost:3000[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:47 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ POST /api/auth/login[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:47 PM [32m    LOG[39m [38;5;3m[AuthController] [39m[32mPOST /auth/login - Login attempt: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:47 PM [32m    LOG[39m [38;5;3m[AuthService] [39m[32mLogin attempt for: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:47 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by email: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:47 PM [32m    LOG[39m [38;5;3m[AuthService] [39m[32mLogin successful: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:47 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← POST /api/auth/login 201 - 77ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:47 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:47 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:47 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:47 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:47 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:47 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:47 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:47 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 19ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:48 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:48 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:48 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:48 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 12ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 1:15:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 14ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:03 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:03 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:04 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:04 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:04 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:04 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:04 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:04 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 19ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:06 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:06 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:06 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:06 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:06 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:06 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:06 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:06 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:06 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:06 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 19ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:07 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:07 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:07 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:07 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:07 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:07 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 12ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:14 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:14 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:14 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:14 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:14 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:14 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:14 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:14 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:14 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:14 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:14 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:14 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:14 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:14 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:14 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 12ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:14 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 14ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6998892bae55a76e769954be[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6998892bae55a76e769954be[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 6998892bae55a76e769954be[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6998892bae55a76e769954be 200 - 12ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6998892bae55a76e769954be/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6998892bae55a76e769954be/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6998892bae55a76e769954be/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6998892bae55a76e769954be/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 6998892bae55a76e769954be[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6998892bae55a76e769954be/report 200 - 27ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6998892bae55a76e769954be/articles 200 - 97ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6998892bae55a76e769954be[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6998892bae55a76e769954be[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 6998892bae55a76e769954be[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6998892bae55a76e769954be 200 - 11ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6998892bae55a76e769954be/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6998892bae55a76e769954be/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6998892bae55a76e769954be/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6998892bae55a76e769954be/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 6998892bae55a76e769954be[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6998892bae55a76e769954be/report 200 - 12ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:20 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6998892bae55a76e769954be/articles 200 - 26ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:31 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:31 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:31 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:31 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:31 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:31 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:31 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:31 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:31 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:31 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:31 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:31 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:31 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:31 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:31 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 13ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:51:31 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 13ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ POST /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mPOST /analysis - Creating analysis for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mCreating analysis for user 6993674716814e2691b0482e: Tarcisio de Freitas[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis created: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← POST /api/analysis 201 - 30ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ POST /api/analysis/699ccc48642ce9090fdfac57/start[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mPOST /analysis/699ccc48642ce9090fdfac57/start[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mStarting full analysis pipeline for 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← POST /api/analysis/699ccc48642ce9090fdfac57/start 201 - 1ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"status":"scraping","progress":5}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mTriggering scraping for: Tarcisio de Freitas on portals: g1, folha, instagram[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mScraping job created: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping triggered, job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":10}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699ccc48642ce9090fdfac57 200 - 10ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:12 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699ccc48642ce9090fdfac57 200 - 9ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:17 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:17 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:17 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #1: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:17 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":10}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:17 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:17 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:17 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:17 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:17 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:17 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:17 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:17 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:17 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699ccc48642ce9090fdfac57 200 - 11ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:18 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:18 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:18 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:18 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:18 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:18 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:18 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:18 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 12ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:22 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:22 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:22 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #2: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:22 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":11}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:22 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6993d02973b1e9855a90b698[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6993d02973b1e9855a90b698[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 6993d02973b1e9855a90b698[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6993d02973b1e9855a90b698 200 - 9ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6993d02973b1e9855a90b698/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6993d02973b1e9855a90b698/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6993d02973b1e9855a90b698/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6993d02973b1e9855a90b698/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 6993d02973b1e9855a90b698[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6993d02973b1e9855a90b698[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6993d02973b1e9855a90b698[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 6993d02973b1e9855a90b698[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6993d02973b1e9855a90b698/report 200 - 12ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6993d02973b1e9855a90b698 200 - 12ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6993d02973b1e9855a90b698/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6993d02973b1e9855a90b698/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6993d02973b1e9855a90b698/articles 200 - 38ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:23 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6993d02973b1e9855a90b698/report 200 - 10ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:26 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:26 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:26 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:26 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:26 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:26 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:26 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:26 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:26 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:26 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:26 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:26 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:26 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:26 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:26 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 13ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:26 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 14ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:27 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:27 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:27 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #3: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:27 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":11}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:27 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:29 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:29 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69985cb8ae55a76e76994fdf[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69985cb8ae55a76e76994fdf[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 69985cb8ae55a76e76994fdf[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69985cb8ae55a76e76994fdf 200 - 9ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69985cb8ae55a76e76994fdf/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69985cb8ae55a76e76994fdf/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69985cb8ae55a76e76994fdf[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69985cb8ae55a76e76994fdf[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 69985cb8ae55a76e76994fdf[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69985cb8ae55a76e76994fdf/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69985cb8ae55a76e76994fdf/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 69985cb8ae55a76e76994fdf[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69985cb8ae55a76e76994fdf/report 200 - 11ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69985cb8ae55a76e76994fdf 200 - 10ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69985cb8ae55a76e76994fdf/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69985cb8ae55a76e76994fdf/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69985cb8ae55a76e76994fdf/report 200 - 9ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:30 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69985cb8ae55a76e76994fdf/articles 200 - 62ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:32 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:32 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:32 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #4: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:32 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":12}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:32 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:37 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:37 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:37 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #5: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:37 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":12}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:37 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:42 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:42 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:42 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #6: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:42 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":13}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:42 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:44 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:44 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:44 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:44 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:44 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:44 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:44 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:44 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:44 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:44 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:44 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:44 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:44 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:44 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:44 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 12ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:44 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 14ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:47 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:47 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:47 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #7: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:47 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":13}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:47 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69985cb8ae55a76e76994fdf[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69985cb8ae55a76e76994fdf[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 69985cb8ae55a76e76994fdf[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69985cb8ae55a76e76994fdf[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69985cb8ae55a76e76994fdf[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 69985cb8ae55a76e76994fdf[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69985cb8ae55a76e76994fdf 200 - 9ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69985cb8ae55a76e76994fdf 200 - 9ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69985cb8ae55a76e76994fdf/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69985cb8ae55a76e76994fdf/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69985cb8ae55a76e76994fdf[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69985cb8ae55a76e76994fdf[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 69985cb8ae55a76e76994fdf[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69985cb8ae55a76e76994fdf/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69985cb8ae55a76e76994fdf/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 69985cb8ae55a76e76994fdf[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69985cb8ae55a76e76994fdf/report 200 - 24ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69985cb8ae55a76e76994fdf 200 - 23ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69985cb8ae55a76e76994fdf/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69985cb8ae55a76e76994fdf/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69985cb8ae55a76e76994fdf/report 200 - 12ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69985cb8ae55a76e76994fdf/articles 200 - 69ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69985cb8ae55a76e76994fdf/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69985cb8ae55a76e76994fdf/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69985cb8ae55a76e76994fdf/report 200 - 11ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69985cb8ae55a76e76994fdf/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69985cb8ae55a76e76994fdf/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 69985cb8ae55a76e76994fdf[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:48 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69985cb8ae55a76e76994fdf/articles 200 - 63ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:52 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:52 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:52 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #8: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:52 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":14}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:52 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:55 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:55 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:55 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:55 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:55 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:55 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:55 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:55 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:55 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:55 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:55 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:55 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:55 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:55 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:55 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 16ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:55 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 16ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:57 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:57 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:57 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #9: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:57 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":14}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:57 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699661edd2e31f65be03b8cb[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699661edd2e31f65be03b8cb[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 699661edd2e31f65be03b8cb[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699661edd2e31f65be03b8cb 200 - 8ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699661edd2e31f65be03b8cb/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699661edd2e31f65be03b8cb/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 699661edd2e31f65be03b8cb[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699661edd2e31f65be03b8cb/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699661edd2e31f65be03b8cb/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699661edd2e31f65be03b8cb[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699661edd2e31f65be03b8cb[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 699661edd2e31f65be03b8cb[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699661edd2e31f65be03b8cb/report 200 - 25ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699661edd2e31f65be03b8cb/articles 200 - 25ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699661edd2e31f65be03b8cb 200 - 24ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699661edd2e31f65be03b8cb/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699661edd2e31f65be03b8cb/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699661edd2e31f65be03b8cb/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699661edd2e31f65be03b8cb/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 699661edd2e31f65be03b8cb[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699661edd2e31f65be03b8cb/articles 200 - 11ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:53:58 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699661edd2e31f65be03b8cb/report 200 - 12ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 13ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 13ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #10: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":15}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:02 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69937afa5ec90f89314c6793[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69937afa5ec90f89314c6793[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 69937afa5ec90f89314c6793[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69937afa5ec90f89314c6793 200 - 10ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69937afa5ec90f89314c6793/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69937afa5ec90f89314c6793/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69937afa5ec90f89314c6793/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69937afa5ec90f89314c6793/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 69937afa5ec90f89314c6793[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69937afa5ec90f89314c6793[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69937afa5ec90f89314c6793[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 69937afa5ec90f89314c6793[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69937afa5ec90f89314c6793/report 200 - 12ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69937afa5ec90f89314c6793 200 - 27ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69937afa5ec90f89314c6793/articles 200 - 38ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69937afa5ec90f89314c6793/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69937afa5ec90f89314c6793/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:04 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69937afa5ec90f89314c6793/report 200 - 10ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:07 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:07 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:07 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #11: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:07 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":15}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:07 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:11 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:11 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:11 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:11 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:11 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:11 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:11 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:11 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:11 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:11 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:11 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:11 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:11 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:11 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:11 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 15ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:11 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 16ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:12 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:12 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:12 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #12: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:12 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":16}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:12 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69936a4ccf934fb5cb070429[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69936a4ccf934fb5cb070429[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 69936a4ccf934fb5cb070429[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69936a4ccf934fb5cb070429 200 - 10ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69936a4ccf934fb5cb070429/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69936a4ccf934fb5cb070429/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69936a4ccf934fb5cb070429[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69936a4ccf934fb5cb070429[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 69936a4ccf934fb5cb070429[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69936a4ccf934fb5cb070429/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69936a4ccf934fb5cb070429/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 69936a4ccf934fb5cb070429[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69936a4ccf934fb5cb070429/report 200 - 33ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69936a4ccf934fb5cb070429/articles 200 - 31ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69936a4ccf934fb5cb070429 200 - 31ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69936a4ccf934fb5cb070429/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69936a4ccf934fb5cb070429/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:14 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69936a4ccf934fb5cb070429/report 200 - 20ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:16 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:16 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:16 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:16 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:16 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:16 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:16 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:16 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:16 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:16 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:16 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:16 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:16 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:16 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:16 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 13ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:16 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 14ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:17 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:17 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:17 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #13: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:17 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":16}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:17 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6993b7443390e561e0e0c31b[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6993b7443390e561e0e0c31b[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 6993b7443390e561e0e0c31b[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6993b7443390e561e0e0c31b 200 - 10ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6993b7443390e561e0e0c31b/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6993b7443390e561e0e0c31b/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6993b7443390e561e0e0c31b/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6993b7443390e561e0e0c31b/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 6993b7443390e561e0e0c31b[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6993b7443390e561e0e0c31b[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6993b7443390e561e0e0c31b[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 6993b7443390e561e0e0c31b[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6993b7443390e561e0e0c31b/report 200 - 14ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6993b7443390e561e0e0c31b 200 - 11ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:18 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6993b7443390e561e0e0c31b/articles 200 - 31ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 12ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 13ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #14: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":17}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:22 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69937afa5ec90f89314c6793[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69937afa5ec90f89314c6793[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 69937afa5ec90f89314c6793[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69937afa5ec90f89314c6793[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69937afa5ec90f89314c6793[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 69937afa5ec90f89314c6793[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69937afa5ec90f89314c6793 200 - 9ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69937afa5ec90f89314c6793 200 - 8ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69937afa5ec90f89314c6793/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69937afa5ec90f89314c6793/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69937afa5ec90f89314c6793/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69937afa5ec90f89314c6793/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69937afa5ec90f89314c6793/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69937afa5ec90f89314c6793/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 69937afa5ec90f89314c6793[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69937afa5ec90f89314c6793[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69937afa5ec90f89314c6793[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 69937afa5ec90f89314c6793[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69937afa5ec90f89314c6793/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69937afa5ec90f89314c6793/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 69937afa5ec90f89314c6793[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69937afa5ec90f89314c6793/report 200 - 8ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69937afa5ec90f89314c6793/report 200 - 9ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69937afa5ec90f89314c6793 200 - 9ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/69937afa5ec90f89314c6793/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/69937afa5ec90f89314c6793/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69937afa5ec90f89314c6793/articles 200 - 39ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69937afa5ec90f89314c6793/articles 200 - 40ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:24 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/69937afa5ec90f89314c6793/report 200 - 11ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:27 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:27 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:27 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #15: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:27 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":17}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:27 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:30 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:30 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:30 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:30 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:30 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:30 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:30 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:30 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:30 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:30 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:30 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:30 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:30 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:30 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:30 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 14ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:30 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 14ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:32 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:32 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:32 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #16: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:32 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":18}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:32 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6993b7443390e561e0e0c31b[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6993b7443390e561e0e0c31b[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 6993b7443390e561e0e0c31b[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6993b7443390e561e0e0c31b 200 - 10ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6993b7443390e561e0e0c31b[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6993b7443390e561e0e0c31b[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 6993b7443390e561e0e0c31b[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6993b7443390e561e0e0c31b 200 - 9ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6993b7443390e561e0e0c31b/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6993b7443390e561e0e0c31b/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 6993b7443390e561e0e0c31b[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6993b7443390e561e0e0c31b[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6993b7443390e561e0e0c31b[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 6993b7443390e561e0e0c31b[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6993b7443390e561e0e0c31b/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6993b7443390e561e0e0c31b/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6993b7443390e561e0e0c31b/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6993b7443390e561e0e0c31b/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6993b7443390e561e0e0c31b/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6993b7443390e561e0e0c31b/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 6993b7443390e561e0e0c31b[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6993b7443390e561e0e0c31b 200 - 12ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6993b7443390e561e0e0c31b/report 200 - 12ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6993b7443390e561e0e0c31b/report 200 - 11ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6993b7443390e561e0e0c31b/articles 200 - 27ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:33 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6993b7443390e561e0e0c31b/articles 200 - 29ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:37 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:37 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:37 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #17: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:37 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":18}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:37 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 13ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 13ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #18: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":19}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:42 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:44 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:44 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:44 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:44 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:44 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:44 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:44 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:44 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699ccc48642ce9090fdfac57 200 - 10ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:44 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:44 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:44 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:44 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:44 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:44 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:44 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:44 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699ccc48642ce9090fdfac57 200 - 8ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:46 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:46 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:46 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:46 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:46 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:46 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:46 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:46 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:46 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:46 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:46 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:46 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:46 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:46 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:46 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 11ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:46 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 11ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6998892bae55a76e769954be[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6998892bae55a76e769954be[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 6998892bae55a76e769954be[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6998892bae55a76e769954be 200 - 9ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6998892bae55a76e769954be/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6998892bae55a76e769954be/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6998892bae55a76e769954be/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6998892bae55a76e769954be/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 6998892bae55a76e769954be[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6998892bae55a76e769954be[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6998892bae55a76e769954be[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 6998892bae55a76e769954be[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6998892bae55a76e769954be/report 200 - 11ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6998892bae55a76e769954be 200 - 10ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/6998892bae55a76e769954be/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/6998892bae55a76e769954be/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6998892bae55a76e769954be/articles 200 - 40ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/6998892bae55a76e769954be/report 200 - 12ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #19: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":19}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:47 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:52 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:52 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:52 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #20: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:52 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":20}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:52 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:57 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:57 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:57 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #21: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:57 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":20}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:54:58 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:03 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:03 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:03 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #22: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:03 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":21}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:03 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:08 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:08 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:08 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #23: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:08 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":21}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:08 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:13 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:13 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:13 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #24: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:13 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":22}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:13 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:18 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:18 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:18 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #25: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:18 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":22}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:18 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:23 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:23 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:23 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #26: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:23 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":23}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:23 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:28 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:28 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:28 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #27: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:28 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":23}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:28 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:33 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:33 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:33 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #28: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:33 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":24}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:33 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:38 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:38 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:38 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #29: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:38 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":24}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:38 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:43 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:43 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:43 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #30: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:43 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":25}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:43 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:48 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:48 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:48 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #31: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:48 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":25}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:48 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:53 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:53 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:53 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #32: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:53 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":26}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:53 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:58 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:58 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:58 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #33: running[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:58 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":26}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:55:58 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:56:03 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mChecking scraping status for job: c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:56:03 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mJob c768577e-41c0-4cf8-ada9-017938a03e15 status: completed[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:56:03 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping poll #34: completed[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:56:03 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"progress":27}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:56:03 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:56:03 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mScraping completed for job c768577e-41c0-4cf8-ada9-017938a03e15[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:56:03 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"status":"analyzing","progress":45}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:56:03 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:56:03 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 699ccc48642ce9090fdfac57[39m
+[33m[Nest] 67301  - [39m02/23/2026, 6:56:03 PM [33m   WARN[39m [38;5;3m[AnalysisService] [39m[33mNo articles found for analysis 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:56:03 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mUpdating analysis 699ccc48642ce9090fdfac57: {"status":"done","progress":100,"errorMessage":"No articles found after scraping. Try broader search terms."}[39m
+[32m[Nest] 67301  - [39m02/23/2026, 6:56:03 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mAnalysis updated: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:14 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:14 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:14 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:14 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:14 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:14 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:14 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:14 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 13ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699ccc48642ce9090fdfac57 200 - 13ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699ccc48642ce9090fdfac57/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699ccc48642ce9090fdfac57/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699ccc48642ce9090fdfac57/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699ccc48642ce9090fdfac57/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699ccc48642ce9090fdfac57/report 200 - 52ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699ccc48642ce9090fdfac57 200 - 8ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:15 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699ccc48642ce9090fdfac57/articles 200 - 11ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699ccc48642ce9090fdfac57 200 - 34ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699ccc48642ce9090fdfac57/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699ccc48642ce9090fdfac57/report[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699ccc48642ce9090fdfac57/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699ccc48642ce9090fdfac57/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analysis: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699ccc48642ce9090fdfac57/articles 200 - 9ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699ccc48642ce9090fdfac57 200 - 8ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699ccc48642ce9090fdfac57/report 200 - 17ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis/699ccc48642ce9090fdfac57/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis/699ccc48642ce9090fdfac57/articles[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[NewsService] [39m[32mFetching articles for analysis: 699ccc48642ce9090fdfac57[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:17 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis/699ccc48642ce9090fdfac57/articles 200 - 9ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:18 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:18 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:18 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:18 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:18 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:18 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:18 PM [32m    LOG[39m [38;5;3m[JwtStrategy] [39m[32mValidating JWT for user: admin@pulso.com[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:18 PM [32m    LOG[39m [38;5;3m[UsersService] [39m[32mFetching user by ID: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:18 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:18 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:18 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:18 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m→ GET /api/analysis[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:18 PM [32m    LOG[39m [38;5;3m[AnalysisController] [39m[32mGET /analysis - Fetching analyses for user 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:18 PM [32m    LOG[39m [38;5;3m[AnalysisService] [39m[32mFetching analyses for user: 6993674716814e2691b0482e[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:18 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 42ms[39m
+[32m[Nest] 67301  - [39m02/23/2026, 7:02:18 PM [32m    LOG[39m [38;5;3m[LoggingInterceptor] [39m[32m← GET /api/analysis 200 - 44ms[39m

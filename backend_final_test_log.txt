@@ -1,0 +1,23 @@
+
+> pulso-backend@1.0.0 start:dev
+> nest start --watch
+
+
+ Info  Webpack is building your sources...
+
+webpack 5.89.0 compiled [1m[32msuccessfully[39m[22m in 1654 ms
+(node:66642) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:66647) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:66647) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at ExpressAdapter.listen (/Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/platform-express/adapters/express-adapter.js:95:32)
+    at /Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/nest-application.js:183:30
+    at new Promise (<anonymous>)
+    at NestApplication.listen (/Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/nest-application.js:173:16)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at bootstrap (/Users/gabrielgreco/Projects/pulso/backend/dist/main.js:3316:5)

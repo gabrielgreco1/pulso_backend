@@ -1,0 +1,34 @@
+
+> pulso-backend@1.0.0 start:dev
+> nest start --watch
+
+
+ Info  Webpack is building your sources...
+
+[1m[31mERROR[39m[22m in [1m./src/app.module.ts:47:35[39m[22m
+[1mTS7006: Parameter 'err' implicitly has an 'any' type.
+    45 |         bufferCommands: false,
+    46 |         connectionFactory: (connection) => {
+  > 47 |           connection.on('[1m[31merror[39m[22m[1m', (err) => {
+       |                                   ^^^
+    48 |             console.[1m[31merror[39m[22m[1m('Mongoose connection [1m[31merror[39m[22m[1m:', err);
+    49 |           });
+    50 |           return connection;[39m[22m
+
+webpack 5.89.0 compiled with [1m[31m1 error[39m[22m in 1699 ms
+
+ Info  Webpack is building your sources...
+
+Error: write EPIPE
+    at target._send (node:internal/child_process:877:20)
+    at target.send (node:internal/child_process:751:19)
+    at /Users/gabrielgreco/Projects/pulso/backend/node_modules/fork-ts-checker-webpack-plugin/lib/rpc/expose-rpc.js:27:31
+    at new Promise (<anonymous>)
+    at sendMessage (/Users/gabrielgreco/Projects/pulso/backend/node_modules/fork-ts-checker-webpack-plugin/lib/rpc/expose-rpc.js:19:38)
+    at /Users/gabrielgreco/Projects/pulso/backend/node_modules/fork-ts-checker-webpack-plugin/lib/rpc/expose-rpc.js:60:27
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/gabrielgreco/Projects/pulso/backend/node_modules/fork-ts-checker-webpack-plugin/lib/rpc/expose-rpc.js:5:58) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write'
+}

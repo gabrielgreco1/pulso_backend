@@ -1,0 +1,46 @@
+
+> pulso-backend@1.0.0 start:dev
+> nest start --watch
+
+
+ Info  Webpack is building your sources...
+
+webpack 5.89.0 compiled [1m[32msuccessfully[39m[22m in 1734 ms
+(node:61837) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:61842) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:61842) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+[32m[Nest] 61842  - [39m02/23/2026, 1:01:24 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 61842  - [39m02/23/2026, 1:01:24 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 61842  - [39m02/23/2026, 1:01:24 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[31m[Nest] 61842  - [39m02/23/2026, 1:01:24 PM [31m  ERROR[39m [38;5;3m[ExceptionHandler] [39m[31mNest can't resolve dependencies of the UserModel (?). Please make sure that the argument "DatabaseConnection" at index [0] is available in the MongooseModule context.
+
+Potential solutions:
+- Is MongooseModule a valid NestJS module?
+- If "DatabaseConnection" is a provider, is it part of the current MongooseModule?
+- If "DatabaseConnection" is exported from a separate @Module, is that module imported within MongooseModule?
+  @Module({
+    imports: [ /* the Module containing "DatabaseConnection" */ ]
+  })
+[39m
+Error: Nest can't resolve dependencies of the UserModel (?). Please make sure that the argument "DatabaseConnection" at index [0] is available in the MongooseModule context.
+
+Potential solutions:
+- Is MongooseModule a valid NestJS module?
+- If "DatabaseConnection" is a provider, is it part of the current MongooseModule?
+- If "DatabaseConnection" is exported from a separate @Module, is that module imported within MongooseModule?
+  @Module({
+    imports: [ /* the Module containing "DatabaseConnection" */ ]
+  })
+
+    at Injector.lookupComponentInParentModules (/Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/injector/injector.js:262:19)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at Injector.resolveComponentInstance (/Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/injector/injector.js:215:33)
+    at resolveParam (/Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/injector/injector.js:129:38)
+    at async Promise.all (index 0)
+    at Injector.resolveConstructorParams (/Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/injector/injector.js:144:27)
+    at Injector.loadInstance (/Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/injector/injector.js:70:13)
+    at Injector.loadProvider (/Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/injector/injector.js:98:9)
+    at Injector.lookupComponentInImports (/Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/injector/injector.js:297:17)
+    at Injector.lookupComponentInParentModules (/Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/injector/injector.js:260:33)

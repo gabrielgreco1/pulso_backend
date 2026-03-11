@@ -1,0 +1,143 @@
+
+> pulso-backend@1.0.0 start:dev
+> nest start --watch
+
+
+ Info  Webpack is building your sources...
+
+webpack 5.89.0 compiled [1m[32msuccessfully[39m[22m in 1732 ms
+(node:64283) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:64346) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:64346) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPlansModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[ScrapingService] [39m[32mScraping API URL: http://localhost:8000[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAiModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScrapingModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mNewsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPaymentsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAnalysisModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/api/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/me, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/refresh-token, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAnalysisController {/api/analysis}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id/download, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id/start, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id/report, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id/articles, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analysis/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mNewsController {/api/news}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/news/analysis/:analysisId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mScrapingController {/api/scraping}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/scraping/trigger, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/scraping/status/:jobId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/scraping/health, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPaymentsController {/api/payments}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/payments/checkout, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/payments/webhook, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPlansController {/api/plans}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plans, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/plans/:name, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +0ms[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[Bootstrap] [39m[32m🚀 Application running in development mode on port 3001[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[Bootstrap] [39m[32m📡 API available at: http://localhost:3001/api[39m
+[32m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [32m    LOG[39m [38;5;3m[Bootstrap] [39m[32m🔐 CORS enabled for: http://localhost:3000[39m
+[31m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [31m  ERROR[39m [38;5;3m[AllExceptionsFilter] [39m[31mGET /analysis/new - Status: 404[39m
+NotFoundException: Cannot GET /analysis/new
+    at callback (/Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:286:9
+    at router.process_params (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/gabrielgreco/Projects/pulso/backend/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:328:13)
+[31m[Nest] 64346  - [39m02/23/2026, 1:09:00 PM [31m  ERROR[39m [38;5;3m[AllExceptionsFilter] [39m[31mGET /favicon.ico - Status: 404[39m
+NotFoundException: Cannot GET /favicon.ico
+    at callback (/Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:286:9
+    at router.process_params (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/gabrielgreco/Projects/pulso/backend/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:328:13)
+[31m[Nest] 64346  - [39m02/23/2026, 1:09:06 PM [31m  ERROR[39m [38;5;3m[AllExceptionsFilter] [39m[31mGET /analysis - Status: 404[39m
+NotFoundException: Cannot GET /analysis
+    at callback (/Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:286:9
+    at router.process_params (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/gabrielgreco/Projects/pulso/backend/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:328:13)
+[31m[Nest] 64346  - [39m02/23/2026, 1:09:07 PM [31m  ERROR[39m [38;5;3m[AllExceptionsFilter] [39m[31mGET / - Status: 404[39m
+NotFoundException: Cannot GET /
+    at callback (/Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:286:9
+    at router.process_params (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/gabrielgreco/Projects/pulso/backend/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:328:13)
+[31m[Nest] 64346  - [39m02/23/2026, 1:09:08 PM [31m  ERROR[39m [38;5;3m[AllExceptionsFilter] [39m[31mGET /dashboard - Status: 404[39m
+NotFoundException: Cannot GET /dashboard
+    at callback (/Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:286:9
+    at router.process_params (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/gabrielgreco/Projects/pulso/backend/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/gabrielgreco/Projects/pulso/backend/node_modules/express/lib/router/index.js:328:13)
+[31m[Nest] 64346  - [39m02/23/2026, 1:13:38 PM [31m  ERROR[39m [38;5;3m[AllExceptionsFilter] [39m[31mGET /api/analysis - Status: 401[39m
+UnauthorizedException: Invalid or expired token
+    at JwtAuthGuard.handleRequest (/Users/gabrielgreco/Projects/pulso/backend/dist/main.js:325:26)
+    at /Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/passport/dist/auth.guard.js:44:124
+    at /Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/passport/dist/auth.guard.js:83:24
+    at allFailed (/Users/gabrielgreco/Projects/pulso/backend/node_modules/passport/lib/middleware/authenticate.js:110:18)
+    at attempt (/Users/gabrielgreco/Projects/pulso/backend/node_modules/passport/lib/middleware/authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (/Users/gabrielgreco/Projects/pulso/backend/node_modules/passport/lib/middleware/authenticate.js:314:9)
+    at JwtStrategy.authenticate (/Users/gabrielgreco/Projects/pulso/backend/node_modules/passport-jwt/lib/strategy.js:96:21)
+    at attempt (/Users/gabrielgreco/Projects/pulso/backend/node_modules/passport/lib/middleware/authenticate.js:378:16)
+    at authenticate (/Users/gabrielgreco/Projects/pulso/backend/node_modules/passport/lib/middleware/authenticate.js:379:7)
+    at /Users/gabrielgreco/Projects/pulso/backend/node_modules/@nestjs/passport/dist/auth.guard.js:88:3

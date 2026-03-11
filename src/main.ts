@@ -1,0 +1,49 @@
+import { NestFactory } from '@nestjs/core';
+import { ValidationPipe, Logger } from '@nestjs/common';
+import { ConfigService } from '@nestjs/config';
+import { AppModule } from './app.module';
+
+/**
+ * Bootstrap the NestJS application
+ * Configures CORS, validation, and starts the server
+ */
+async function bootstrap() {
+  const logger = new Logger('Bootstrap'); // Recompile trigger
+
+  const app = await NestFactory.create(AppModule, {
+    bufferLogs: true,
+  });
+
+  const configService = app.get(ConfigService);
+  const port = configService.get<number>('app.port')!;
+  const nodeEnv = configService.get<string>('app.nodeEnv')!;
+
+  // Enable CORS for frontend
+  app.enableCors({
+    origin: ['http://localhost:3000', 'http://frontend:3000'],
+    credentials: true,
+  });
+
+  // Global validation pipe
+  app.useGlobalPipes(
+    new ValidationPipe({
+      whitelist: true,
+      forbidNonWhitelisted: true,
+      transform: true,
+      transformOptions: {
+        enableImplicitConversion: true,
+      },
+    }),
+  );
+
+  // Global prefix for all routes
+  app.setGlobalPrefix('api');
+
+  await app.listen(port);
+
+  logger.log(`🚀 Application running in ${nodeEnv} mode on port ${port}`);
+  logger.log(`📡 API available at: http://localhost:${port}/api`);
+  logger.log(`🔐 CORS enabled for: http://localhost:3000`);
+}
+
+bootstrap();
