@@ -17,11 +17,20 @@ async function bootstrap() {
   const configService = app.get(ConfigService);
   const port = configService.get<number>('app.port')!;
   const nodeEnv = configService.get<string>('app.nodeEnv')!;
+  const frontendUrl = configService.get<string>('app.frontendUrl') || 'http://localhost:3000';
 
   // Enable CORS for frontend
+  const corsOrigins = [
+    'http://localhost:3000',
+    'http://frontend:3000',
+    frontendUrl, // Add production frontend URL
+  ];
+
   app.enableCors({
-    origin: ['http://localhost:3000', 'http://frontend:3000'],
+    origin: corsOrigins,
     credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
   });
 
   // Global validation pipe
